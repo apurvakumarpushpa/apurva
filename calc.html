@@ -1,0 +1,41 @@
+<html>
+ <head>
+  <title> CALCULATOR
+  </title>
+ </head>
+  <body>
+  <h1>Calculations between 6 and 3</h1>
+  <button type="button" onclick="addition(6,3)">Addition</button>
+  <button type="button" onclick="sub(6,3)">Subtraction</button>
+  <button type="button" onclick="mul(6,3)">Multiplication</button>
+  <button type="button" onclick="div(6,3)">Divition</button>
+  <p id="add"></p>
+  <script>
+  var x;
+  var p;
+  var q;
+        function addition(p,q){
+	  
+      document.getElementById("add").innerHTML= (p+q);
+
+   }
+   function sub(p,q){
+	  
+      document.getElementById("add").innerHTML= (p-q);
+
+   }
+    function mul(p,q){
+	  
+      document.getElementById("add").innerHTML= (p*q);
+
+   }
+    function div(p,q){
+	  
+      document.getElementById("add").innerHTML= (p/q);
+
+   }
+  </script>
+  
+  
+  </body>
+</html>
